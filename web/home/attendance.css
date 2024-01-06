@@ -1,0 +1,47 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 12, 2023, 3:58:29 PM
+    Author     : Admin
+*/
+html{
+    height: max-content;
+}
+.attendane-container{
+/*    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);*/
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2em;
+    margin-bottom: 2em;
+}
+.attendance-info{
+    border: solid;
+    margin-bottom: 4em;
+    width: 1000px;
+}
+.attendance-info td{
+    padding: 0.5em 1em;
+}
+.title{
+    font-weight: 900;
+    color: white;
+    margin-top: 2em;
+    text-align: center;
+    width: 100%;
+/*    top:25%;
+    left: 50%;
+    transform: translateX(-50%);*/
+}
+#course-select{
+    /*position: absolute;*/
+    /*top: 30%;*/
+    /*right: 5%;*/
+}
